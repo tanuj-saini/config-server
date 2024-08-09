@@ -1,1 +1,10 @@
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+spring:
+  application:
+        name: Config-prod
