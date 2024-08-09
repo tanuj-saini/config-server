@@ -5,5 +5,6 @@ eureka:
   instance:
     hostname: localhost
     preferIpAddress: true
-
-
+spring:
+  application:
+        name: Config-serverH
